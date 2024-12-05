@@ -11,6 +11,7 @@ Here is the summary of my notes from Deep Random Thoughts by Amir Feizpour (http
     - Requires a level of autonomy in completing the task.
     
     Examples:
+  
           - A virtual assistant that manages your schedule, checks weather data, and books appointments.
           - A system that analyzes customer reviews and recommends product improvements.
           - A chatbot that can answer complex questions by searching the web and integrating information from different sources.
