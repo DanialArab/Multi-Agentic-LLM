@@ -9,3 +9,5 @@ Skills I need to develop/already have before the bootcamp:
 ## What are AI agents?
 
 https://www.youtube.com/watch?v=F8NKVhkZZWI
+
+https://www.youtube.com/watch?v=IivxYYkJ2DI
