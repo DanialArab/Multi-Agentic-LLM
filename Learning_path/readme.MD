@@ -6,3 +6,6 @@ Skills I need to develop/already have before the bootcamp:
 - Product Dev
 - Build something
 
+## What are AI agents?
+
+https://www.youtube.com/watch?v=F8NKVhkZZWI
