@@ -23,3 +23,5 @@ up to Brief History of Intelligent Agents
 Resources:
 
 https://maven.com/p/bafd83/llm-agents-learning-path
+
+https://github.com/Aggregate-Intellect/maven-course/tree/main/learning-path-exercises
