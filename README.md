@@ -18,3 +18,8 @@ Here is the summary of my notes from Deep Random Thoughts by Amir Feizpour (http
     - A content creation tool that understands your previous creative decisions and generates content that aligns with your overall vision.
 
 up to Brief History of Intelligent Agents
+
+
+Resources:
+
+https://maven.com/p/bafd83/llm-agents-learning-path
