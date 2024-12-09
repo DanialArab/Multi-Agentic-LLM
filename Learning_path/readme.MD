@@ -5,3 +5,4 @@ Skills I need to develop/already have before the bootcamp:
 - Ops Techstack 
 - Product Dev
 - Build something
+
