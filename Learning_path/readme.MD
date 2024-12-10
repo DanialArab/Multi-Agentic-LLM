@@ -33,6 +33,7 @@ SOA takes the concept of bounded contexts from DDD and maps them to services. Ea
 
 Microservices architecture takes SOA a step further by creating even smaller, more focused services. Unlike SOA, in microservice architectures the services focus as narrowly as possible, often only on a single function. This approach offers greater agility, scalability, and resilience. Each microservice owns its data and logic, promoting independent development and deployment.
 
+**You might notice that some of the things that you’ve imagined as “multi-agent” systems could be achieved simply by a well designed software system.**
 
 
 
