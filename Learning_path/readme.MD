@@ -3,6 +3,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 1. [Introduction](#1)
    1. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
    2. [Part 2: LLM Agents](#3)
+      1. [Data is most probably your only moat](#4)
    3. [Part 3: Design Patterns](#4) 
 
 
@@ -11,6 +12,32 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 
 <a name="2"></a>
 ### Part 1: **<a href="https://aisc.substack.com/p/llm-agents-part-1-the-9-commandments">The “9” Commandments: How to Build LLM Products Successfully</a>**
+
+The principles of building the most sophisticated multi-agent LLM products is the same as the ones for any LLM product and ultimately the same as the ones for any data-powered software product.
+
+<a name="3"></a> 
+1. Data is most probably your only moat
+
+Moat = competitive advantage 
+
+- Your data is the secret sauce that enables you to build AI systems that can perform tasks and provide insights your competitors can only dream of.
+- When it comes to preparing your data for training models, it's important to weigh the benefits of annotating data versus relying solely on unsupervised methods. While unsupervised learning can be appealing due to its potential to reduce manual labor, annotated data often leads to better model performance and faster convergence. Investing in data annotation can pay off in the long run by improving the accuracy and reliability of your AI systems.
+
+2. Follow validation driven development
+
+3. Get your product in the hands of your (ideally paying) users asap
+
+4. Separate the data and interface layers, and be prepared to invest in data engineering 
+
+5. Do not count on LLMs beyond linguistic interfaces 
+
+6. Create Robust Feedback Modules
+
+7. Actually Improve User’s Productivity 
+
+8. Think deeply about integrations into users' tools and workflows 
+
+9. Design for humans! 
 
 
 <a name="3"></a>
