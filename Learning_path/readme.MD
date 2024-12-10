@@ -1,5 +1,5 @@
 1. [Introduction](#1)
-   2. [Part 1: The “9” Commandments: How to Build LLM Products Successfully](#2)  
+   2. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
    3. [Part 2: LLM Agents](#3)
    4. [Part 3: Design Patterns](#4) 
  
