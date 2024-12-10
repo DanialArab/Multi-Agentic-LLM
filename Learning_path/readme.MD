@@ -14,7 +14,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 
 
 <a name="3"></a>
-### Part 2: LLM Agents
+### Part 2: **<a href="https://aisc.substack.com/p/llm-agents-part-2-what-the-heck-are">LLM Agents</a>**
 
 
 <a name="4"></a>
