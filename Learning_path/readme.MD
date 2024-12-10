@@ -35,6 +35,7 @@ Microservices architecture takes SOA a step further by creating even smaller, mo
 
 **You might notice that some of the things that you’ve imagined as “multi-agent” systems could be achieved simply by a well designed software system.**
 
+### Multi-Agent LLMs: A New Design Pattern
 
 
 
