@@ -88,6 +88,8 @@ However, both approaches also come with challenges:
 
 Therefore, multi-agent systems, unlike what vendors tell you, are not a silver bullet for everything and choosing to approach solving a business problem with them comes down to a careful pros/cons analysis.
 
+### How to design multi-agent architectures?
+
 
 
 
