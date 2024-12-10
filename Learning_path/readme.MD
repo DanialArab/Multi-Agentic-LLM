@@ -90,7 +90,7 @@ Therefore, multi-agent systems, unlike what vendors tell you, are not a silver b
 
 ### How to design multi-agent architectures?
 
-
+ 
 
 
 Skills I need to develop/already have before the bootcamp:
