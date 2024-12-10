@@ -5,7 +5,7 @@ Going to the basics of RL is important in thinking through agentic workflows, as
 - Service-Oriented Architecture (SOA), and 
 - microservices architecture
 
-
+### Domain-Driven Design (DDD)
 
 
 
