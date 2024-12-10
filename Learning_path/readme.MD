@@ -1,12 +1,19 @@
 1. [Introduction](#1)
-   1. [a](#2)  
-   2. [b](#3)
-   3. [LLM Agents - Part 3](#4) 
-3. [Complete SQL Mastery](#5)  
+   2. [Part 1: The “9” Commandments: How to Build LLM Products Successfully](#2)  
+   3. [Part 2: LLM Agents](#3)
+   4. [Part 3: Design Patterns](#4) 
  
 
 <a name="1"></a>
 ## Introduction
+
+<a name="1"></a>
+Part 1: The “9” Commandments: How to Build LLM Products Successfully
+
+
+<a name="1"></a>
+## Part 2: LLM Agents
+
 
 <a name="1"></a>
 ## LLM Agents - Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
