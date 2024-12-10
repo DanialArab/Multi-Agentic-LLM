@@ -2,8 +2,8 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 
 1. [Introduction](#1)
    1. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
+      1. [Data is most probably your only moat](#3)
    2. [Part 2: LLM Agents](#3)
-      1. [Data is most probably your only moat](#4)
    3. [Part 3: Design Patterns](#4) 
 
 
