@@ -71,7 +71,22 @@ Agentic systems use these existing mechanisms and will also introduce a new dime
 
 Even in the realm of multi-agent systems, **the established approach of API calls and JSON data exchange remains the most reliable and robust communication method**. It provides a clear and well-defined path for information exchange. DSLs offer a middle ground, balancing expressiveness with control. Finally, natural language communication, while offering the most flexibility, comes with the greatest risk of misunderstandings and requires significant development effort to implement effectively. In all likelihood, a product that you design would tap into all these different communication channels between services and therefore agents to achieve the best balance between performance and control.
 
+### Shared Benefits and Challenges multi-agent LLMs and microservices architectures
 
+Both multi-agent LLMs and microservices architectures offer several advantages:
+
+- Modularity: Break down complex tasks into smaller, manageable units.
+- Scalability: Scale individual agents or services independently based on needs.
+- Resilience: If designed right, given the adaptability of agent policies that leads to some redundancy, failure of one agent or service doesn't cripple the entire system.
+- Independent Deployment: Deploy and update individual agents/services without affecting others.
+
+However, both approaches also come with challenges:
+
+- Increased Complexity: Managing interactions and dependencies between agents/services requires careful planning.
+- Testing and Debugging: Debugging issues that span multiple agents/services can be intricate. Also, the probabilistic nature of agents can make systems built with them considerably harder to debug.
+- Distributed System Management: Distributing resources and ensuring consistent behavior across agents/services adds complexity.
+
+Therefore, multi-agent systems, unlike what vendors tell you, are not a silver bullet for everything and choosing to approach solving a business problem with them comes down to a careful pros/cons analysis.
 
 
 
