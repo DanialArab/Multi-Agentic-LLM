@@ -10,15 +10,15 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 ## Introduction
 
 <a name="2"></a>
-Part 1: The “9” Commandments: How to Build LLM Products Successfully
+### Part 1: The “9” Commandments: How to Build LLM Products Successfully
 
 
 <a name="3"></a>
-## Part 2: LLM Agents
+### Part 2: LLM Agents
 
 
 <a name="4"></a>
-## LLM Agents - Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
+### LLM Agents - Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
 
 Going to the basics of RL is important in thinking through agentic workflows, as we discussed before. Also going back to software design principles is the way to go about creating multi-agent systems. Let's discuss how the below established software design principles can be applied to the emerging trend of multi-agent large language model (LLM) systems:
 - Domain-Driven Design (DDD), 
