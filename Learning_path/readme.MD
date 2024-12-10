@@ -92,8 +92,8 @@ Therefore, multi-agent systems, unlike what vendors tell you, are not a silver b
 
 1. Map the workflow humans execute to achieve a particular objective including people, processes, and tools involved.
 2. Draw context boundaries around parts of the process that are self-contained.
-    - You want each of these areas to have minimal data dependency on another one (if they share / exchange a lot of data they might have to be merged).
-    - You want each of these areas to have minimal functional dependencies on another one (if most of the time a change in one requires a change in another one, they should be merged into one context).
+    - You want each of these areas to have **minimal data dependency** on another one (if they share / exchange a lot of data they might have to be merged).
+    - You want each of these areas to have **minimal functional dependencies** on another one (if most of the time a change in one requires a change in another one, they should be merged into one context).
 3. Decide if each of these contexts are a software services or if they need to become “agentic” and mark them as such (“Payment Processing Service”, “Data Analyzer Agent”)
      - Note that each agent might contain microservices (“PDF Parser microservice”, “info retrieval microservice”)
 4. Add any other services necessary that your architecture doesn’t explicitly contain (“User Management Service”, “Shared Memory Service”)
