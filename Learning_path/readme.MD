@@ -54,8 +54,22 @@ This shift from passive data handling to active agents unlocks new possibilities
 - Continuous Improvement: The modular, and to some extent potentially redundant, nature of multi-agent systems can make them less constrained by improvements in a single component as the only opportunity for improvements in the overall system. For example, an agent that is fine-tuned to do task decomposition effectively can help other agents do that task well by providing examples in a few shot setup. In a more well setup system, each component inside agents, potentially small LM or non-LM models, can have a feedback loop continuously being restrained and improved. This could include models that are involved in the policies of individual agents or the overall system. 
 
 
+### Contracts, Languages, and Communication
 
+Microservices architectures thrive on clear and well-defined communication. This communication relies on **predefined API contracts, essentially agreements that dictate how services interact with each other.** These contracts act like sheet music for an orchestra, ensuring each microservice plays its part seamlessly.
 
+REST APIs and JSON are the cornerstones of these contracts. 
+
+- REST (Representational State Transfer) defines a standardized architecture for requesting and receiving data between services. 
+- JSON (JavaScript Object Notation) acts as the “language” for transmitting data, offering a lightweight and human-readable format for exchanging information.
+
+Agentic systems use these existing mechanisms and will also introduce a new dimension to communication, adding two more communication types:
+
+- Domain-Specific Languages (DSLs): These are custom languages tailored to a specific domain or purpose. Imagine a trading agent responsible for capital market transactions using a combination of statistics, machine learning, and business logic rules. Communicating this info in natural language is too complex and error-prone, and in JSON is too limited. However, using a DSL, imagine a set of pseudocode snippets describing the logic of the rules, as a communication contract between the controller agent and the executor agent can be the most efficient channel. DSLs offer more expressiveness and efficiency compared to generic JSON data, but require specialized knowledge to understand and implement.
+
+- Natural Language (NL): This is the most human-like form of communication. Agents could potentially communicate and share information using natural language processing (NLP) techniques. However, natural language is inherently ambiguous and prone to misinterpretations. While offering the most flexibility, NL communication is also the least robust and requires advanced NLP capabilities to manage effectively.
+
+Even in the realm of multi-agent systems, the established approach of API calls and JSON data exchange remains the most reliable and robust communication method. It provides a clear and well-defined path for information exchange. DSLs offer a middle ground, balancing expressiveness with control. Finally, natural language communication, while offering the most flexibility, comes with the greatest risk of misunderstandings and requires significant development effort to implement effectively. In all likelihood, a product that you design would tap into all these different communication channels between services and therefore agents to achieve the best balance between performance and control.
 
 
 
