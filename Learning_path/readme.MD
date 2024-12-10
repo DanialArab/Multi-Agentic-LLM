@@ -11,6 +11,20 @@ Going to the basics of RL is important in thinking through agentic workflows, as
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Skills I need to develop/already have before the bootcamp:
 - Programming
 - LLM & AI concepts
