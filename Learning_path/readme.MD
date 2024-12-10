@@ -37,6 +37,22 @@ Microservices architecture takes SOA a step further by creating even smaller, mo
 
 ### Multi-Agent LLMs: A New Design Pattern
 
+Beyond Microservices: Active Agents vs. Passive Data Handlers
+Microservices excel in building modular, scalable software systems. However, they primarily function as passive data handlers, responding to requests and manipulating data. Multi-agent LLMs, on the other hand, take a leap forward by introducing “active” components inside these services, effectively allowing them to “make decisions” in scenarios without being deterministically programmed to do so. These agents can:
+
+Continuously monitor the situation, analyze data, and identify potential issues or opportunities.
+
+Take initiative and perform actions without explicit instructions. This can involve initiating communication with other agents, retrieving information, or even triggering predefined workflows.
+
+Collaborate and negotiate with each other to achieve a common goal. This allows for dynamic decision-making and adaptation to unforeseen circumstances.
+
+This shift from passive data handling to active agents unlocks new possibilities:
+
+Complex Task Automation: Multi-agent LLMs can automate complex tasks that require reasoning, planning, and collaboration across different domains. Imagine a system with a service constantly monitoring traffic patterns, augmented with an agent analyzing weather data, and a second one making decisions about rerouting deliveries to avoid congestion – a scenario beyond the pre-determined nature of microservices.
+
+Emergent Behavior:  LLMs themselves show emergent properties; they can classify text, extract entities, and more although they are only explicitly trained on predicting the next most likely token. When LLM-powered agents that are fine-tuned to strengthen any of these properties or are augmented with tools that give them specialized capabilities can interact with each other, non-trivial collective behavior might appear. The semantic flexibility, although less controllable in nature, combined with the reliability of JSON based communication between various software services, agentic or otherwise, could result in systems that work in ways that are more “expected” by human operators, for example by adapting and responding to situations in ways that might not be explicitly programmed.
+
+Continuous Improvement: The modular, and to some extent potentially redundant, nature of multi-agent systems can make them less constrained by improvements in a single component as the only opportunity for improvements in the overall system. For example, an agent that is fine-tuned to do task decomposition effectively can help other agents do that task well by providing examples in a few shot setup. In a more well setup system, each component inside agents, potentially small LM or non-LM models, can have a feedback loop continuously being restrained and improved. This could include models that are involved in the policies of individual agents or the overall system. 
 
 
 
