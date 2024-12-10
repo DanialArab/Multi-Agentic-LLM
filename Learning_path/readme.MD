@@ -3,7 +3,7 @@
 Going to the basics of RL is important in thinking through agentic workflows, as we discussed before. Also going back to software design principles is the way to go about creating multi-agent systems. Let's discuss how the below established software design principles can be applied to the emerging trend of multi-agent large language model (LLM) systems:
 - Domain-Driven Design (DDD), 
 - Service-Oriented Architecture (SOA), and 
-- microservices architecture
+- Microservices architecture
 
 Traditional design patterns provide a robust framework for software development. By integrating machine learning (ML) into these patterns, we can introduce a new dimension to software architecture. ML enables **probabilistic routing** between software components, replacing **pre-programmed deterministic routing**. This integration not only enhances the functionality of individual components but also introduces new capabilities. Both LLMs and specialized ML models, and often a combination of the two, can be utilized to achieve these improvements.
 
@@ -25,10 +25,13 @@ Bounded contexts ensure that complexity is manageable by focusing on specific as
 
 Each bounded context has its own data entities, business rules, and common language. This modular approach allows developers to focus on specific areas of functionality without getting overwhelmed by the complexity of the entire system.
 
+### Service-Oriented Architecture (SOA)
 
+SOA takes the concept of bounded contexts from DDD and maps them to services. Each service encapsulates a specific domain functionality and exposes a well-defined interface. This promotes loose coupling, allowing services to evolve independently without impacting others.
 
+### Microservices architecture
 
-
+Microservices architecture takes SOA a step further by creating even smaller, more focused services. Unlike SOA, in microservice architectures the services focus as narrowly as possible, often only on a single function. This approach offers greater agility, scalability, and resilience. Each microservice owns its data and logic, promoting independent development and deployment.
 
 
 
