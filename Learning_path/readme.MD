@@ -99,14 +99,15 @@ Therefore, multi-agent systems, unlike what vendors tell you, are not a silver b
 4. Add any other services necessary that your architecture doesn’t explicitly contain (“User Management Service”, “Shared Memory Service”)
 5. Determine how data flows through the system (“PDF goes from File Upload service to parsing service”, “JSON containing rewritten query and search filters goes from query analyzer service to info retrieval service). 
      - Revise the system modularity (context boundaries) to minimize data movement.
-6. Determine and document communication protocols between different services and agents.
-     - In most interfaces the protocol should be REST based and the data load should be JSON for robustness purposes.
+6. Determine and document **communication protocols between different services and agents**.
+     - **In most interfaces the protocol should be REST-based and the data load should be JSON for robustness purposes.**
      - If that fails to meet your requirement, then try to use DSLs, only if that fails also, use natural (or formal) language.
-     - It is ok to use natural language for most of your interfaces in a quick and dirty prototype implementation, but you should remind yourself that, in all likelihood, it will not meet the reliability threshold for user facing production deployment. 
+     - It is ok to use natural language for most of your interfaces in a quick and dirty prototype implementation, but you should remind yourself that, in all likelihood, it will **not meet the reliability threshold for user facing production deployment.**
 7. Determine how you would unit test each microservice.
      - If conceptualizing a unit test for a microservice is too complex, it might be a sign of a need to break it into smaller pieces.
      - The unit test for a service would be all component unit tests passing. The unit test for an agent might be a less trivial heuristic on how all component unit tests behaved (in principle agents should be able to recover from some of the failing components; for example it can choose a document search action instead if google search action is failing).
- 
+
+
 
 
 Skills I need to develop/already have before the bootcamp:
