@@ -1,4 +1,4 @@
-## LLM Agents - Part 3: Design Patterns
+## LLM Agents - Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**.
 
 Going to the basics of RL is important in thinking through agentic workflows, as we discussed before. Also going back to software design principles is the way to go about creating multi-agent systems. Let's discuss how the below established software design principles can be applied to the emerging trend of multi-agent large language model (LLM) systems:
 - Domain-Driven Design (DDD), 
@@ -17,12 +17,9 @@ Communication methods between components, previously services and more recently 
 
 However, the introduction of natural language as an interface adds a new layer of complexity, with its own set of advantages and challenges. These hybrid systems, combining predetermined and probabilistic behavior, may become the new standard in software development.
 
-
-
-
-
 ### Domain-Driven Design (DDD)
 
+DDD emphasizes modeling software around the core domain of a business. It advocates for a common language shared by developers and domain experts, ensuring everyone speaks the same language. DDD breaks down the domain into bounded contexts, areas with well-defined and segregated responsibilities, and often minimal dependency on other areas.
 
 
 
