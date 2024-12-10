@@ -25,6 +25,8 @@ Moat = competitive advantage
 
 2. Follow validation driven development
 
+HERE
+
 3. Get your product in the hands of your (ideally paying) users asap
 
 4. Separate the data and interface layers, and be prepared to invest in data engineering 
