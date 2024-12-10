@@ -21,6 +21,9 @@ However, the introduction of natural language as an interface adds a new layer o
 
 DDD emphasizes modeling software around the **core domain of a business**. It advocates for a common language shared by developers and domain experts, ensuring everyone speaks the same language. DDD breaks down the domain into bounded contexts, areas with well-defined and segregated responsibilities, and often minimal dependency on other areas.
 
+Bounded contexts ensure that complexity is manageable by focusing on specific aspects of the domain. This focus also promotes better communication and understanding between developers and domain experts. **By breaking down the domain into bounded contexts, we lay the groundwork for introducing agents with specialized capabilities, each responsible for a specific bounded context within the larger multi-agent LLM system**. Just as bounded contexts promote modularity and focus within the domain, agents with bounded responsibility will do the same.
+
+
 
 
 
