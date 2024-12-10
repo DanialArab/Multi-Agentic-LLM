@@ -1,3 +1,14 @@
+1. [Introduction](#1)
+   1. [a](#2)  
+   2. [b](#3)
+   3. [LLM Agents - Part 3](#4) 
+3. [Complete SQL Mastery](#5)  
+ 
+
+<a name="1"></a>
+## Introduction
+
+<a name="1"></a>
 ## LLM Agents - Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
 
 Going to the basics of RL is important in thinking through agentic workflows, as we discussed before. Also going back to software design principles is the way to go about creating multi-agent systems. Let's discuss how the below established software design principles can be applied to the emerging trend of multi-agent large language model (LLM) systems:
