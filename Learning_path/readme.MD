@@ -5,10 +5,11 @@ Going to the basics of RL is important in thinking through agentic workflows, as
 - Service-Oriented Architecture (SOA), and 
 - microservices architecture
 
+Traditional design patterns provide a robust framework for software development. By integrating machine learning (ML) into these patterns, we can introduce a new dimension to software architecture. ML enables **probabilistic routing** between software components, replacing pre-programmed deterministic routing. This integration not only enhances the functionality of individual components but also introduces new capabilities. Both LLMs and specialized ML models, and often a combination of the two, can be utilized to achieve these improvements.
+
+
+
 ### Domain-Driven Design (DDD)
-
-
-
 
 
 
