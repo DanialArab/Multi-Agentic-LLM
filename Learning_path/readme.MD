@@ -4,14 +4,7 @@ This repository documents my solutions
    1. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
    2. [Part 2: LLM Agents](#3)
    3. [Part 3: Design Patterns](#4) 
-3. [Complete SQL Mastery](#5)  
 
-
-1. [Introduction](#1)
-   2. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
-   3. [Part 2: LLM Agents](#3)
-   4. [Part 3: Design Patterns](#4) 
- 
 
 <a name="1"></a>
 ## Introduction
