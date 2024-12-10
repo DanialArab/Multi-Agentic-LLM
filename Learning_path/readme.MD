@@ -10,7 +10,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 ## Introduction
 
 <a name="2"></a>
-### Part 1: The “9” Commandments: How to Build LLM Products Successfully
+### Part 1: **<a href="https://aisc.substack.com/p/llm-agents-part-1-the-9-commandments">The “9” Commandments: How to Build LLM Products Successfully</a>**
 
 
 <a name="3"></a>
