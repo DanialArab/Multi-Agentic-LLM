@@ -16,7 +16,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 The principles of building the most sophisticated multi-agent LLM products is the same as the ones for any LLM product and ultimately the same as the ones for any data-powered software product.
 
 <a name="3"></a> 
-1. Data is most probably your only moat
+#### 1. Data is most probably your only moat
 
 Moat = competitive advantage 
 
