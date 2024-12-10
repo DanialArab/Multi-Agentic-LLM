@@ -1,9 +1,9 @@
 This repository documents my understanding of Multi-agentic LLM systems, mostly from Deep Random Thoughts. 
 
 1. [Introduction](#1)
-   1. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
-   2. [Part 2: LLM Agents](#3)
-   3. [Part 3: Design Patterns](#4) 
+   2. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
+   3. [Part 2: LLM Agents](#3)
+   4. [Part 3: Design Patterns](#4) 
 
 
 <a name="1"></a>
