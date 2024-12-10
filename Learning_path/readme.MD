@@ -1,3 +1,4 @@
+This repository documents my solutions 
 
 1. [Introduction](#1)
    2. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
