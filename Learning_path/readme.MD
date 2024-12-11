@@ -30,7 +30,7 @@ Moat = competitive advantage
 
 - A very common problem in naively built agentic systems is **compounding error in these systems that quickly leads into systems falling in endless loops or producing nonsensical results**. The only way to avoid these problems is having reliable and granular metrics throughout the system that act as feedback or reward mechanisms keeping the components and overall system in check.
 - Start by defining clear, quantitative metrics that capture what "good" looks like for your product - whether that's accuracy, user engagement, task completion rate, or some combination of these. This has to be done for the **components of your architecture as well as the overall performance of the system.**
-- The key is to have a solid experimental setup where you're constantly shipping new arrangements of components, measuring their impact on your core metrics, and doubling down on the most promising ideas. This is also particularly important for LLM agent systems since the landscape of potential improvements is so vast that a thorough investigation of all possibilities with limited resources is simply impractical. 
+- The key is to have a **solid experimental setup** where you're constantly shipping new arrangements of components, measuring their impact on your core metrics, and doubling down on the most promising ideas. This is also particularly important for LLM agent systems since the landscape of potential improvements is so vast that a thorough investigation of all possibilities with limited resources is simply impractical. 
 
 <a name="5"></a> 
 #### Get your product in the hands of your (ideally paying) users asap
