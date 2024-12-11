@@ -35,6 +35,13 @@ Moat = competitive advantage
 <a name="5"></a> 
 #### Get your product in the hands of your (ideally paying) users asap
 
+- One of the biggest pitfalls in AI development is getting bogged down in endless technical tweaks before getting any feedback from real users. This is especially tempting with LLMs, where there's always another parameter to tune or dataset to incorporate. But the reality is, you'll never know if you're building something people actually want until you put it in their hands. The feedback gets even more real if they are paying you (or at least they anticipate having to pay you to use the product).
+- The antidote is simple (but not always easy): Build the simplest viable version of your product and get it in front of users as quickly as humanly possible. This might mean starting with a bare-bones MVP (Minimum viable product) that only does one thing, or even launching a "fake" version powered by human labor behind the scenes. The point is to start collecting real feedback and data from day one, so you can validate your core assumptions and start iterating in the right direction. Doing this can also help regulate your understanding of the right metrics to track as per last commandment. It is easy to lose sight of what really matters to the user quantitatively by hiding behind technical metrics like accuracy.
+- Another important aspect of this is deployment. It is great that your product works on your laptop, but if the user can’t interact with it you have significant friction in getting the feedback that you need.
+
+
+ 
+
 Separate the data and interface layers, and be prepared to invest in data engineering 
 
 Do not count on LLMs beyond linguistic interfaces 
