@@ -70,7 +70,10 @@ Moat = competitive advantage
 <a name="9"></a> 
 #### Actually Improve User’s Productivity 
 
-- 
+-  Now productivity does not equal saving time only, but rather it implies saving unwanted effort, therefore, your product has to address workflows that your users:
+      - Spend significant time on, AND 
+      - They do not want to spend that time doing that task. 
+
 <a name="10"></a> 
 #### Think deeply about integrations into users' tools and workflows 
 
