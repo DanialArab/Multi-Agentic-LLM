@@ -57,12 +57,20 @@ Moat = competitive advantage
 <a name="7"></a> 
 #### Do not count on LLMs beyond linguistic interfaces 
 
+- As the name suggests, LLMs are language models - they excel at generating statistically plausible sequences of words, but struggle with many other desirable capabilities like reasoning, analysis, and grounding in real-world facts.
+- They are notoriously prone to **"hallucinations" - confidently generating false or nonsensical information that can be hard to detect.** They struggle with maintaining coherence over long time horizons or complex multi-step tasks.
+
 <a name="8"></a> 
 #### Create Robust Feedback Modules
+
+- In academia, scientific papers undergo peer review, where different experts independently critique the work before publication. Borrowing from this process, a powerful paradigm for building self-improving AI systems is to train multiple models that play distinct roles akin (similar) to authors and reviewers.
+- In this setup, you might use a generative model to produce some output, like a dialogue response, a document summary, or a piece of code. You then have to use a separate "critic" model to evaluate the quality of that output along various dimensions like factual accuracy, logical coherence, style and tone. Crucially, these models are trained independently, so the critic acts as an objective assessor, not just a rubber stamp.
+- This is particularly important in agentic systems where the goal is for the system to continuously monitor its performance, reflect on the outcome, and try again with improved likelihood of better performance. This is a crucial ingredient for the level of autonomy we seek in agents. Therefore implementing highly reliable, accurate, and trustworthy feedback sub-systems (aka “reward mechanism” in the context of RL) is a big part of success in building an agentic product.  You can even equip the agents with ensembles of critic tools (including but not limited to occasionally asking for human input) to cover different facets of evaluation, like long-term coherence vs. individual response quality.
 
 <a name="9"></a> 
 #### Actually Improve User’s Productivity 
 
+- 
 <a name="10"></a> 
 #### Think deeply about integrations into users' tools and workflows 
 
