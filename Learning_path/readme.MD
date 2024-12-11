@@ -5,6 +5,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       1. [Data is most probably your only moat](#3)
       2. [Follow validation-driven development](#4)
       3. [Get your product in the hands of your (ideally paying) users asap](#5)
+      4. [Separate the data and interface layers, and be prepared to invest in data engineering ](#6)
    2. [Part 2: LLM Agents](#3)
    3. [Part 3: Design Patterns](#4) 
 
@@ -39,10 +40,8 @@ Moat = competitive advantage
 - The antidote is simple (but not always easy): Build the simplest viable version of your product and get it in front of users as quickly as humanly possible. This might mean starting with a bare-bones MVP (Minimum viable product) that only does one thing, or even launching a "fake" version powered by human labor behind the scenes. The point is to start collecting real feedback and data from day one, so you can validate your core assumptions and start iterating in the right direction. Doing this can also help regulate your understanding of the right metrics to track as per last commandment. It is easy to lose sight of what really matters to the user quantitatively by hiding behind technical metrics like accuracy.
 - Another important aspect of this is deployment. It is great that your product works on your laptop, but if the user can’t interact with it you have significant friction in getting the feedback that you need.
 
-
- 
-
-Separate the data and interface layers, and be prepared to invest in data engineering 
+<a name="6"></a> 
+#### Separate the data and interface layers, and be prepared to invest in data engineering 
 
 Do not count on LLMs beyond linguistic interfaces 
 
