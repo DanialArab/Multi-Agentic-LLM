@@ -4,7 +4,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
    1. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
       1. [Data is most probably your only moat](#3)
       2. [Follow validation-driven development](#4)
-      3. [Get your product in the hands of your (ideally paying) users asap]((#5)
+      3. [Get your product in the hands of your (ideally paying) users asap](#5)
    2. [Part 2: LLM Agents](#3)
    3. [Part 3: Design Patterns](#4) 
 
