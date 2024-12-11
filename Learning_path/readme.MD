@@ -11,7 +11,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       7. [Actually Improve User’s Productivity](#9)
       8. [Think deeply about integrations into users' tools and workflows](#10)
       9. [Design for humans!](#11)
-   2. [Part 2: LLM Agents](#3)
+   2. [Part 2: LLM Agents](#12)
    3. [Part 3: Design Patterns](#4) 
 
 
@@ -84,17 +84,17 @@ Moat = competitive advantage
 - Armed with this deep understanding, architect your AI product to integrate with the specific tools your users depend on, with seamless bridges for importing and exporting data, triggering actions, and collaborating with teammates. In many cases, this means delivering your AI capabilities as **plugins or add-ons right within users' primary tools, instead of forcing them to switch to a separate app.**
 - When well executed, this deep integration approach makes your AI product feel less like a tool and more like an intelligent assistant that's always there in the flow of work, ready to lend a hand. Users don't have to disrupt their normal processes or learn new interfaces - they can simply tap into the power of AI whenever and wherever they need it. And that frictionless experience is the key to making AI an indispensable part of people's daily lives.
 
-
-
-
-
 <a name="11"></a> 
 #### Design for humans! 
 
+- Pretty model performance numbers in a lab setting are meaningless if they don't translate into tangible benefits for humans in the messy real world.
+- Prioritizing the human element means investing deeply in thoughtful UX design, extensive user testing, and rapid iteration based on feedback. It means providing robust, accessible user education to help people understand both the capabilities and limitations of the AI systems you're putting in their hands. And it means proactively considering and mitigating the potential risks and unintended negative consequences your product could have in people's lives.
+- If we keep humans at the center and measure success by the positive impact we have **in their lives, not just our model metrics,** we can build an AI-powered future that brings out the best in both machines and people. 
 
-<a name="3"></a>
+<a name="12"></a>
 ### Part 2: **<a href="https://aisc.substack.com/p/llm-agents-part-2-what-the-heck-are">LLM Agents</a>**
 
+HERE
 
 <a name="4"></a>
 ### Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
