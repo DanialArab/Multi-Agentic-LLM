@@ -42,6 +42,18 @@ Moat = competitive advantage
 <a name="6"></a> 
 #### Separate the data and interface layers, and be prepared to invest in data engineering 
 
+- Using LLMs doesn't give you a free pass to ignore established software and data engineering best practices. In fact, as LLM-based systems grow in complexity and capability, it becomes even more critical to architect your systems in a **modular, maintainable way.**
+- Designing your system in a way that the LLM itself becomes the source of knowledge is a risky and ill-advised approach. Instead, strive to architect your system, craft your prompts, and provide the relevant context to the LLM to ensure it relies solely on the information you supply to it when generating a response. While this may evolve in the future, cleanly decoupling your data from your interfaces gives you greater control, allows you to layer on additional security and privacy measures, and makes your system more robust to changes in the underlying models. Retrieval-augmented generation (RAG) techniques provide a powerful way to achieve this decoupling while still harnessing the full power of LLMs.
+- It is tempting to think that you just fine-tune one model using your data and it will work as expected with all the controls that you need. The reality is that LLMs are not well-behaved enough to achieve any granular level of control necessary for real world applications and use cases. It is best to separate the data layer (knowledge base documents, structured data, etc) in already well established structured (aka databases) with all the necessary controls (eg. identity and access management) that come with those. This also makes it easier for you to **pre- / post- process that data before feeding it to the model in retrieval augmented generation (or equivalent) setups.**
+- Separating the data layer also gives you the ability to build all the logic necessary for processing, storing, and retrieving the data used to train and run smaller models you use in your control flows or to fine-tune your large models. This includes data ingestion pipelines, data cleaning and transformation steps, feature engineering, and data versioning. Your interface layer, on the other hand, should focus solely on exposing the capabilities of your models to end-users, whether that's via APIs, chatbots, or interactive GUIs. Of course, LLM itself can act as a linguistic interface by providing conversational interactions with the user. 
+
+
+
+
+
+
+
+
 Do not count on LLMs beyond linguistic interfaces 
 
 Create Robust Feedback Modules
