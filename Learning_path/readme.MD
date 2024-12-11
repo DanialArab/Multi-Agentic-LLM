@@ -70,12 +70,23 @@ Moat = competitive advantage
 <a name="9"></a> 
 #### Actually Improve User’s Productivity 
 
--  Now productivity does not equal saving time only, but rather it implies saving unwanted effort, therefore, your product has to address workflows that your users:
+-  Productivity does not equal saving time only, but rather it implies saving unwanted effort, therefore, your product has to address workflows that your users:
       - Spend significant time on, AND 
       - They do not want to spend that time doing that task. 
+- Approach every new capability through the lens of "how does this concretely make my user's job efficient and effective?" **If you can't quantify the impact, chances are it's not worth building.**
+- Another important nuance here is that builders are sometimes excited about taking away the parts of the job that people actually enjoy spending time on rather than parts that they hate doing. While that product might theoretically improve productivity, the psychological barrier of using it will backfire
 
 <a name="10"></a> 
 #### Think deeply about integrations into users' tools and workflows 
+
+- To drive successful adoption, your AI product needs to fit seamlessly into users' existing workflows and tool chains. No matter how impressive your models are under the hood, if using your product feels like a clunky, disjointed experience, people simply won't bother. On the flip side, if your product slots nicely into the tools and processes users are already using day-to-day, you'll dramatically lower the barriers to adoption and make your AI feel like a natural extension of users' workflows. The last thing people want is yet another siloed app to switch back and forth from. Instead, look for opportunities to embed your AI capabilities right within the apps users already live in day-to-day, whether that's their email client, messaging platform, note-taking tool, or code editor.
+- To get this right, you need to invest significant time upfront to deeply understand how your target users currently work and what their key pain points are. This means going beyond surface-level interviews and surveys to really immerse yourself in their world. Shadow them as they go about their tasks, paying close attention to all the tools, systems, and collaborators they interact with along the way. Map out their end-to-end workflows to identify bottlenecks, inefficiencies, and opportunities for AI to streamline the process.
+- Armed with this deep understanding, architect your AI product to integrate with the specific tools your users depend on, with seamless bridges for importing and exporting data, triggering actions, and collaborating with teammates. In many cases, this means delivering your AI capabilities as **plugins or add-ons right within users' primary tools, instead of forcing them to switch to a separate app.**
+- When well executed, this deep integration approach makes your AI product feel less like a tool and more like an intelligent assistant that's always there in the flow of work, ready to lend a hand. Users don't have to disrupt their normal processes or learn new interfaces - they can simply tap into the power of AI whenever and wherever they need it. And that frictionless experience is the key to making AI an indispensable part of people's daily lives.
+
+
+
+
 
 <a name="11"></a> 
 #### Design for humans! 
