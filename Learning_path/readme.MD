@@ -6,8 +6,15 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       2. [Follow validation-driven development](#4)
       3. [Get your product in the hands of your (ideally paying) users asap](#5)
       4. [Separate the data and interface layers, and be prepared to invest in data engineering ](#6)
+      5. [Do not count on LLMs beyond linguistic interfaces](#7)
+      6. [Create Robust Feedback Modules](#8)
+      7. [Actually Improve User’s Productivity](#9)
+      8. [Think deeply about integrations into users' tools and workflows](#10)
+      9. [Design for humans!](#11)
    2. [Part 2: LLM Agents](#3)
    3. [Part 3: Design Patterns](#4) 
+
+
 
 <a name="1"></a>
 ## Introduction
@@ -47,22 +54,20 @@ Moat = competitive advantage
 - It is tempting to think that you just fine-tune one model using your data and it will work as expected with all the controls that you need. The reality is that LLMs are not well-behaved enough to achieve any granular level of control necessary for real world applications and use cases. It is best to separate the data layer (knowledge base documents, structured data, etc) in already well established structured (aka databases) with all the necessary controls (eg. identity and access management) that come with those. This also makes it easier for you to **pre- / post- process that data before feeding it to the model in retrieval augmented generation (or equivalent) setups.**
 - Separating the data layer also gives you the ability to build all the logic necessary for processing, storing, and retrieving the data used to train and run smaller models you use in your control flows or to fine-tune your large models. This includes data ingestion pipelines, data cleaning and transformation steps, feature engineering, and data versioning. Your interface layer, on the other hand, should focus solely on exposing the capabilities of your models to end-users, whether that's via APIs, chatbots, or interactive GUIs. Of course, LLM itself can act as a linguistic interface by providing conversational interactions with the user. 
 
+<a name="7"></a> 
+#### Do not count on LLMs beyond linguistic interfaces 
 
+<a name="8"></a> 
+#### Create Robust Feedback Modules
 
+<a name="9"></a> 
+#### Actually Improve User’s Productivity 
 
+<a name="10"></a> 
+#### Think deeply about integrations into users' tools and workflows 
 
-
-
-
-Do not count on LLMs beyond linguistic interfaces 
-
-Create Robust Feedback Modules
-
-Actually Improve User’s Productivity 
-
-Think deeply about integrations into users' tools and workflows 
-
-Design for humans! 
+<a name="11"></a> 
+#### Design for humans! 
 
 
 <a name="3"></a>
