@@ -3,6 +3,8 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
 1. [Introduction](#1)
    1. [Part 1: The 9 Commandments: How to Build LLM Products Successfully](#2)  
       1. [Data is most probably your only moat](#3)
+      2. [Follow validation-driven development](#4)
+      3. [Get your product in the hands of your (ideally paying) users asap]((#5)
    2. [Part 2: LLM Agents](#3)
    3. [Part 3: Design Patterns](#4) 
 
@@ -23,11 +25,15 @@ Moat = competitive advantage
 - Your data is the secret sauce that enables you to build AI systems that can perform tasks and provide insights your competitors can only dream of.
 - When it comes to preparing your data for training models, it's important to weigh the benefits of annotating data versus relying solely on unsupervised methods. While unsupervised learning can be appealing due to its potential to reduce manual labor, annotated data often leads to better model performance and faster convergence. Investing in data annotation can pay off in the long run by improving the accuracy and reliability of your AI systems.
 
-Follow validation-driven development
+<a name="4"></a> 
+#### Follow validation-driven development
 
-HERE
+- A very common problem in naively built agentic systems is **compounding error in these systems that quickly leads into systems falling in endless loops or producing nonsensical results**. The only way to avoid these problems is having reliable and granular metrics throughout the system that act as feedback or reward mechanisms keeping the components and overall system in check.
+- Start by defining clear, quantitative metrics that capture what "good" looks like for your product - whether that's accuracy, user engagement, task completion rate, or some combination of these. This has to be done for the **components of your architecture as well as the overall performance of the system.**
+- The key is to have a solid experimental setup where you're constantly shipping new arrangements of components, measuring their impact on your core metrics, and doubling down on the most promising ideas. This is also particularly important for LLM agent systems since the landscape of potential improvements is so vast that a thorough investigation of all possibilities with limited resources is simply impractical. 
 
-Get your product in the hands of your (ideally paying) users asap
+<a name="5"></a> 
+#### Get your product in the hands of your (ideally paying) users asap
 
 Separate the data and interface layers, and be prepared to invest in data engineering 
 
