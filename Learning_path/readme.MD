@@ -23,7 +23,7 @@ Moat = competitive advantage
 - Your data is the secret sauce that enables you to build AI systems that can perform tasks and provide insights your competitors can only dream of.
 - When it comes to preparing your data for training models, it's important to weigh the benefits of annotating data versus relying solely on unsupervised methods. While unsupervised learning can be appealing due to its potential to reduce manual labor, annotated data often leads to better model performance and faster convergence. Investing in data annotation can pay off in the long run by improving the accuracy and reliability of your AI systems.
 
-Follow validation driven development
+Follow validation-driven development
 
 HERE
 
