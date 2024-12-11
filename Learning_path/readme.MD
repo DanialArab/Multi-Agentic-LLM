@@ -9,7 +9,6 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
    2. [Part 2: LLM Agents](#3)
    3. [Part 3: Design Patterns](#4) 
 
-
 <a name="1"></a>
 ## Introduction
 
