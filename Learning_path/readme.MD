@@ -13,6 +13,9 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       9. [Design for humans!](#11)
    2. [Part 2: LLM Agents](#12)
       1. [Agents in Reinforcement Learning](#13)
+         1. [Properties of RL agents](#14)
+      2. [Agents in Natural Language Processing](#15)
+      3. [ Agents and Autonomy](#16)
    3. [Part 3: Design Patterns](#4) 
 
 
@@ -130,7 +133,9 @@ Reinforcement Learning (RL) is a subfield of machine learning that focuses on tr
 
 Note that while reward has a significant impact on how the agent behaves, it is not an internal property of the agent. It is instead a property determined by the designer of the system (part art, part science) to help it learn the desired goal seeking behavior. In other words, the reward in this case is externally driven (as opposed to human behavior, for example, where the incentives could be internal or external). 
 
+<a name="14"></a>
 #### Properties of RL agents
+
 We can explore the key properties we mentioned at the beginning of this article for RL agents. 
 
 - Autonomy: RL agents can make decisions independently based on their policy, without requiring explicit instructions or supervision.
@@ -139,6 +144,7 @@ We can explore the key properties we mentioned at the beginning of this article 
 - Goal-orientation: RL agents are driven by the objective of maximizing cumulative rewards, which enables them to learn optimal strategies for achieving specific goals.
 
 
+<a name="15"></a>
 #### Agents in Natural Language Processing
 
 LLM agents are a new class of AI systems that combine large language models (LLMs) with the ability to make informed decisions, take actions, and work towards specific goals. They can be described as a system that uses an LLM to reason through a problem, create a plan to solve the problem, and execute the plan with the help of a set of tools. LLM agents are typically characterized by 3 properties:
@@ -147,6 +153,10 @@ LLM agents are a new class of AI systems that combine large language models (LLM
 - Tool usage (equivalent to actions in the context of RL)
 - Planning (equivalent to policies in RL mapping states to actions based on the current state to maximize reward)  
 
+This concept enables LLMs to analyze information they encounter and choose the most appropriate tool for the task at hand based on their available policies. This empowers them to make informed decisions and achieve their goals. This is exactly what we humans do. When we have a task to solve, we gather information, we look for ways and tools that help us to solve this task as easily as possible. Memory and tool usage are relatively well established, but planning has still significant room for debate and improvements. 
+
+<a name="16"></a>
+#### Agents and Autonomy
 
 
 
