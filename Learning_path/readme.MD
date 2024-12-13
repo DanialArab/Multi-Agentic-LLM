@@ -12,6 +12,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       8. [Think deeply about integrations into users' tools and workflows](#10)
       9. [Design for humans!](#11)
    2. [Part 2: LLM Agents](#12)
+      1. [Agents in Reinforcement Learning](#13)
    3. [Part 3: Design Patterns](#4) 
 
 
@@ -118,9 +119,12 @@ Some points:
     - A content creation tool that understands your previous creative decisions and generates content that aligns with your overall vision.
 
 
+- A bit of history: The 21st century has witnessed a remarkable surge in the development and deployment of intelligent agents across various domains. The evolution of powerful machine learning algorithms, coupled with the exponential growth in computing power and data availability, has enabled the creation of highly sophisticated autonomous systems. One of the most significant breakthroughs in this era has been the emergence of **Reinforcement Learning (RL) as a key approach for training intelligent agents.**
 
+- The progress in RL highlights the potential of RL in enabling agents to learn and adapt to complex environments through trial-and-error learning and reward maximization.
 
-
+<a name="13"></a>
+### Agents in Reinforcement Learning
 
 
 
