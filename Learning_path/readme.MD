@@ -16,6 +16,8 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
          1. [Properties of RL agents](#14)
       2. [Agents in Natural Language Processing](#15)
       3. [ Agents and Autonomy](#16)
+      4. [Agents and Control Flow](317)
+
    3. [Part 3: Design Patterns](#4) 
 
 
@@ -158,9 +160,12 @@ This concept enables LLMs to analyze information they encounter and choose the m
 <a name="16"></a>
 #### Agents and Autonomy
 
+One of the important characteristics of agents is their **level of autonomy characterized by their ability to execute increasingly complex tasks with little to no supervision (correlated with the complexity of their policies).** A software system at a low level of autonomy might resemble tools and one with a high level of autonomy might behave like an agent. While there is no clear cut differentiation, comparison to autonomous driving can be illuminating.
 
+<a name="17"></a>
+### Agents and Control Flow
 
-
+here
 
 
 
