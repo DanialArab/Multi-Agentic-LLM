@@ -139,6 +139,14 @@ We can explore the key properties we mentioned at the beginning of this article 
 - Goal-orientation: RL agents are driven by the objective of maximizing cumulative rewards, which enables them to learn optimal strategies for achieving specific goals.
 
 
+#### Agents in Natural Language Processing
+
+LLM agents are a new class of AI systems that combine large language models (LLMs) with the ability to make informed decisions, take actions, and work towards specific goals. They can be described as a system that uses an LLM to reason through a problem, create a plan to solve the problem, and execute the plan with the help of a set of tools. LLM agents are typically characterized by 3 properties:
+
+- Memory (equivalent to environment in the context of RL)
+- Tool usage (equivalent to actions in the context of RL)
+- Planning (equivalent to policies in RL mapping states to actions based on the current state to maximize reward)  
+
 
 
 
