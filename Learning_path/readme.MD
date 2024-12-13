@@ -94,7 +94,7 @@ Moat = competitive advantage
 <a name="12"></a>
 ### Part 2: **<a href="https://aisc.substack.com/p/llm-agents-part-2-what-the-heck-are">LLM Agents</a>**
 
-HERE
+An Intelligent Agent (IA) is an **autonomous** entity that observes and acts upon an environment to achieve specific goals. These agents can range from simple systems, such as thermostats or basic control mechanisms, to highly complex AI-powered systems. 
 
 <a name="4"></a>
 ### Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
