@@ -94,7 +94,47 @@ Moat = competitive advantage
 <a name="12"></a>
 ### Part 2: **<a href="https://aisc.substack.com/p/llm-agents-part-2-what-the-heck-are">LLM Agents</a>**
 
-An Intelligent Agent (IA) is an **autonomous** entity that observes and acts upon an environment to achieve specific goals. These agents can range from simple systems, such as thermostats or basic control mechanisms, to highly complex AI-powered systems. 
+An Intelligent Agent (IA) is an **autonomous** entity that observes and acts upon an environment to achieve specific goals. These agents can range from simple systems, such as thermostats or basic control mechanisms, to highly complex AI-powered systems. Most IAs possess some or all of the following key properties:
+
+- Autonomous operations
+- Reactive to the environment 
+- Proactive (goal-directed) 
+- Interactive with other agents (via the environment)
+
+Some points:
+
+- Open-source LLMs have also reached a point where they can effectively drive agentic workflows. For example, the integration of LLMs into systems where they can **call tools** has further enhanced their capabilities, allowing them to perform more complex and diverse tasks.
+- Do I need multi-agentic LLM: Yes, if:
+    - Your task is more complex and involves multiple steps.
+    - Needs the ability to remember past interactions and context.
+    - Benefits from accessing and interacting with external tools or resources.
+    - Requires a level of autonomy in completing the task.
+    
+    Examples:
+  
+    - A virtual assistant that manages your schedule, checks weather data, and books appointments.
+    - A system that analyzes customer reviews and recommends product improvements.
+    - A chatbot that can answer complex questions by searching the web and integrating information from different sources.
+    - A content creation tool that understands your previous creative decisions and generates content that aligns with your overall vision.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <a name="4"></a>
 ### Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
