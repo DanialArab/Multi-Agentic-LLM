@@ -126,7 +126,17 @@ Some points:
 <a name="13"></a>
 ### Agents in Reinforcement Learning
 
+Reinforcement Learning (RL) is a subfield of machine learning that focuses on training agents to make sequential decisions in an environment to maximize a cumulative reward signal. In RL, an agent interacts with its environment by taking actions, observing the resulting state, and receiving rewards or penalties based on its actions. The goal here is to learn a policy, which is a mapping from states to actions, that maximizes the expected cumulative reward over time.
 
+Note that while reward has a significant impact on how the agent behaves, it is not an internal property of the agent. It is instead a property determined by the designer of the system (part art, part science) to help it learn the desired goal seeking behavior. In other words, the reward in this case is externally driven (as opposed to human behavior, for example, where the incentives could be internal or external). 
+
+#### Properties of RL agents
+We can explore the key properties we mentioned at the beginning of this article for RL agents. 
+
+- Autonomy: RL agents can make decisions independently based on their policy, without requiring explicit instructions or supervision.
+- Interactivity: Agents continuously interact with their environment, including other agents, by taking actions and receiving feedback in the form of rewards or penalties.
+- Adaptability: Through trial-and-error learning, RL agents can adapt their behavior based on the feedback they receive, allowing them to improve their performance over time.
+- Goal-orientation: RL agents are driven by the objective of maximizing cumulative rewards, which enables them to learn optimal strategies for achieving specific goals.
 
 
 
