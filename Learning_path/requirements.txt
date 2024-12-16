@@ -1,0 +1,14 @@
+langsmith
+langchain-community
+langchain
+chromadb
+tiktoken
+langchain_openai
+chainlit
+pexpect
+bs4
+sentence-transformers
+langchain_cohere
+
+# For npm, run this command manually:
+# npm install localtunnel
