@@ -182,7 +182,6 @@ You can think of control flows as generalized policies that come from a deep und
 Most common implementations involve training small, specialized models (not necessarily language models) that carry out tasks and provide information or constraints to the overall system including crafting prompts that maximize the likelihood of the desired LLM response. 
 
 
-
 <a name="18"></a>
 ### Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
 
@@ -193,6 +192,7 @@ Going to the basics of RL is important in thinking through agentic workflows, as
 
 Traditional design patterns provide a robust framework for software development. By integrating machine learning (ML) into these patterns, we can introduce a new dimension to software architecture. ML enables **probabilistic routing** between software components, replacing **pre-programmed deterministic routing**. This integration not only enhances the functionality of individual components but also introduces new capabilities. Both LLMs and specialized ML models, and often a combination of the two, can be utilized to achieve these improvements.
 
+<a name="19"></a>
 ### Communication methods
 
 Communication methods between components, previously services and more recently agents, remain consistent with traditional approaches, using 
@@ -203,6 +203,10 @@ Communication methods between components, previously services and more recently 
 
 However, the introduction of natural language as an interface adds a new layer of complexity, with its own set of advantages and challenges. These hybrid systems, combining predetermined and probabilistic behavior, may become the new standard in software development.
 
+<a name="20"></a>
+### Design patterns 
+
+<a name="21"></a>
 ### Domain-Driven Design (DDD)
 
 DDD emphasizes modeling software around the **core domain of a business**. It advocates for a common language shared by developers and domain experts, ensuring everyone speaks the same language. DDD breaks down the domain into bounded contexts, areas with well-defined and segregated responsibilities, and often minimal dependency on other areas.
@@ -211,16 +215,19 @@ Bounded contexts ensure that complexity is manageable by focusing on specific as
 
 Each bounded context has its own data entities, business rules, and common language. This modular approach allows developers to focus on specific areas of functionality without getting overwhelmed by the complexity of the entire system.
 
+<a name="22"></a>
 ### Service-Oriented Architecture (SOA)
 
 SOA takes the concept of bounded contexts from DDD and maps them to services. Each service encapsulates a specific domain functionality and exposes a well-defined interface. This promotes loose coupling, allowing services to evolve independently without impacting others.
 
+<a name="23"></a>
 ### Microservices architecture
 
 Microservices architecture takes SOA a step further by creating even smaller, more focused services. Unlike SOA, in microservice architectures the services focus as narrowly as possible, often only on a single function. This approach offers greater agility, scalability, and resilience. Each microservice owns its data and logic, promoting independent development and deployment.
 
 **You might notice that some of the things that you’ve imagined as “multi-agent” systems could be achieved simply by a well designed software system.**
 
+<a name="24"></a>
 ### Multi-Agent LLMs: A New Design Pattern
 
 #### Beyond Microservices: Active Agents vs. Passive Data Handlers
@@ -239,7 +246,7 @@ This shift from passive data handling to active agents unlocks new possibilities
 
 - Continuous Improvement: The modular, and to some extent potentially redundant, nature of multi-agent systems can make them less constrained by improvements in a single component as the only opportunity for improvements in the overall system. For example, an agent that is fine-tuned to do task decomposition effectively can help other agents do that task well by providing examples in a few shot setup. In a more well setup system, each component inside agents, potentially small LM or non-LM models, can have a feedback loop continuously being restrained and improved. This could include models that are involved in the policies of individual agents or the overall system. 
 
-
+<a name="25"></a>
 ### Contracts, Languages, and Communication
 
 Microservices architectures thrive on clear and well-defined communication. This communication relies on **predefined API contracts, essentially agreements that dictate how services interact with each other.** These contracts act like sheet music for an orchestra, ensuring each microservice plays its part seamlessly.
@@ -274,6 +281,7 @@ However, both approaches also come with challenges:
 
 Therefore, multi-agent systems, unlike what vendors tell you, are not a silver bullet for everything and choosing to approach solving a business problem with them comes down to a careful pros/cons analysis.
 
+<a name="26"></a>
 ### How to design multi-agent architectures?
 
 1. Map the workflow humans execute to achieve a particular objective including people, processes, and tools involved.
