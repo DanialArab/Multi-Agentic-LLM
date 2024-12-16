@@ -171,36 +171,23 @@ Imagine an LLM agent designed to write customer service emails.  Control flow en
 
 Effective control flow also addresses the challenges of measuring progress and integrating with existing systems. By establishing clear decision points and expected behaviors, developers can create metrics to track the LLM agent's performance and identify areas for improvement.  Furthermore, control flow allows for the integration of human oversight and intervention.  Developers can design control mechanisms that allow humans to guide the LLM towards desired outcomes or step in when the agent encounters unexpected situations. In essence, control flow acts as the bridge between the raw power of LLMs and the need for stability, reliability, and human oversight in real-world applications. See also:
 
-How to do retrieval augmented generation (RAG) right!
-How to do retrieval augmented generation (RAG) right!
-Amir Feizpour (ai.science)
-·
-May 22
-Read full story
 You can think of control flows as generalized policies that come from a deep understanding of the workflow the agent is trying to automate. They could include things like:
 
-Guardrails: Type of control flow specifically designed to restrict the LLM's behavior in certain ways. They act like safety rails, preventing the LLM from venturing into undesirable areas or generating harmful outputs. For instance: preventing offensive language, staying on topic, and fact-checking.
-
-Routing: LLMs can be used to make decisions about how to respond to a user's query. This can involve classifying the query type (e.g., question, request, instruction) and then directing the response accordingly. For instance, an LLM might predict the best response to a question is a factual summary, while a request might require completing an action (like booking a flight).
-
-Error Handling and Recovery:  When an agentic system encounters an issue, control flow mechanisms allow it to diagnose the problem and take corrective actions. This might involve prompting the user for clarification, reformulating a request, or attempting alternative strategies to complete the task.
-
-Prioritization and Decision Making:  Agentic systems often juggle multiple tasks or goals. Control flow structures help them prioritize based on urgency, importance, or available resources.  For instance, a virtual assistant might prioritize responding to an urgent message over completing a less time-sensitive task.
-
-State Management:  Many agentic systems track their internal state (e.g., conversation history, user preferences) to provide a more consistent and personalized experience. Control flow dictates how the system updates its state based on new information and uses it to inform future actions. Imagine a chatbot remembering your previous order preferences while recommending a new product.
-
-Learning and Adaptation:  Advanced agentic systems can learn and adapt their behavior over time. Control flow allows them to integrate newly acquired knowledge into their decision-making process. For instance, a recommendation system might adjust its suggestions  based on your past interactions and positive feedback.
+- Guardrails: Type of control flow specifically designed to restrict the LLM's behavior in certain ways. They act like safety rails, preventing the LLM from venturing into undesirable areas or generating harmful outputs. For instance: preventing offensive language, staying on topic, and fact-checking.
+- Routing: LLMs can be used to make decisions about how to respond to a user's query. This can involve classifying the query type (e.g., question, request, instruction) and then directing the response accordingly. For instance, an LLM might predict the best response to a question is a factual summary, while a request might require completing an action (like booking a flight).
+- Error Handling and Recovery:  When an agentic system encounters an issue, control flow mechanisms allow it to diagnose the problem and take corrective actions. This might involve prompting the user for clarification, reformulating a request, or attempting alternative strategies to complete the task.
+- Prioritization and Decision Making:  Agentic systems often juggle multiple tasks or goals. Control flow structures help them prioritize based on urgency, importance, or available resources.  For instance, a virtual assistant might prioritize responding to an urgent message over completing a less time-sensitive task.
+- State Management:  Many agentic systems track their internal state (e.g., conversation history, user preferences) to provide a more consistent and personalized experience. Control flow dictates how the system updates its state based on new information and uses it to inform future actions. Imagine a chatbot remembering your previous order preferences while recommending a new product.
+- Learning and Adaptation:  Advanced agentic systems can learn and adapt their behavior over time. Control flow allows them to integrate newly acquired knowledge into their decision-making process. For instance, a recommendation system might adjust its suggestions  based on your past interactions and positive feedback.
 
 Most common implementations involve training small, specialized models (not necessarily language models) that carry out tasks and provide information or constraints to the overall system including crafting prompts that maximize the likelihood of the desired LLM response. 
 
 
 
-
-
-
-
-<a name="4"></a>
+<a name="18"></a>
 ### Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
+
+HERE
 
 Going to the basics of RL is important in thinking through agentic workflows, as we discussed before. Also going back to software design principles is the way to go about creating multi-agent systems. Let's discuss how the below established software design principles can be applied to the emerging trend of multi-agent large language model (LLM) systems:
 - Domain-Driven Design (DDD), 
