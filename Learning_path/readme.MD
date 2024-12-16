@@ -18,7 +18,16 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       3. [ Agents and Autonomy](#16)
       4. [Agents and Control Flow](#17)
    3. [Part 3: Design Patterns](#18) 
-   4. [Workflow to Multi-agent Architecture Design](#19)
+      1. [Communication methods](#19)
+      2. [Established/traditional Design Patterns](#20)
+         1. [Domain-Driven Design (DDD)](#21)
+         2. [Service-Oriented Architecture (SOA)](#22)
+         3. [Microservices architecture](#23)
+      3. [Multi-Agent LLMs: A New Design Pattern](#24)
+      4. [Contracts, Languages, and Communication](#25)
+      5. [Shared Benefits and Challenges multi-agent LLMs and microservices architectures](#26)
+      6. [How to design multi-agent architectures?](#27)
+   4. [Workflow to Multi-agent Architecture Design](#28)
 
 
 <a name="1"></a>
@@ -204,7 +213,7 @@ Communication methods between components, previously services and more recently 
 However, the introduction of natural language as an interface adds a new layer of complexity, with its own set of advantages and challenges. These hybrid systems, combining predetermined and probabilistic behavior, may become the new standard in software development.
 
 <a name="20"></a>
-### Design patterns 
+### Established/traditional Design Patterns 
 
 <a name="21"></a>
 ### Domain-Driven Design (DDD)
@@ -264,6 +273,7 @@ Agentic systems use these existing mechanisms and will also introduce a new dime
 
 Even in the realm of multi-agent systems, **the established approach of API calls and JSON data exchange remains the most reliable and robust communication method**. It provides a clear and well-defined path for information exchange. DSLs offer a middle ground, balancing expressiveness with control. Finally, natural language communication, while offering the most flexibility, comes with the greatest risk of misunderstandings and requires significant development effort to implement effectively. In all likelihood, a product that you design would tap into all these different communication channels between services and therefore agents to achieve the best balance between performance and control.
 
+<a name="26"></a>
 ### Shared Benefits and Challenges multi-agent LLMs and microservices architectures
 
 Both multi-agent LLMs and microservices architectures offer several advantages:
@@ -281,7 +291,7 @@ However, both approaches also come with challenges:
 
 Therefore, multi-agent systems, unlike what vendors tell you, are not a silver bullet for everything and choosing to approach solving a business problem with them comes down to a careful pros/cons analysis.
 
-<a name="26"></a>
+<a name="27"></a>
 ### How to design multi-agent architectures?
 
 1. Map the workflow humans execute to achieve a particular objective including people, processes, and tools involved.
@@ -302,8 +312,10 @@ Therefore, multi-agent systems, unlike what vendors tell you, are not a silver b
      - The unit test for a service would be all component unit tests passing. The unit test for an agent might be a less trivial heuristic on how all component unit tests behaved (in principle agents should be able to recover from some of the failing components; for example it can choose a document search action instead if google search action is failing).
 
 
-<a name="19"></a>
+<a name="28"></a>
 ### Part 4: **<a href="https://aisc.substack.com/p/llm-agents-part-4-workflow-to-multi">Workflow to Multi-agent Architecture Design</a>**
+
+HERE
 
 Skills I need to develop/already have before the bootcamp:
 - Programming
