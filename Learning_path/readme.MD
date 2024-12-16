@@ -18,7 +18,7 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
       3. [ Agents and Autonomy](#16)
       4. [Agents and Control Flow](#17)
    3. [Part 3: Design Patterns](#18) 
-
+   4. [Workflow to Multi-agent Architecture Design](#19)
 
 
 <a name="1"></a>
@@ -186,8 +186,6 @@ Most common implementations involve training small, specialized models (not nece
 <a name="18"></a>
 ### Part 3: **<a href="https://aisc.substack.com/p/llm-agents-part-3-multi-agent-llm">Design Patterns</a>**
 
-HERE
-
 Going to the basics of RL is important in thinking through agentic workflows, as we discussed before. Also going back to software design principles is the way to go about creating multi-agent systems. Let's discuss how the below established software design principles can be applied to the emerging trend of multi-agent large language model (LLM) systems:
 - Domain-Driven Design (DDD), 
 - Service-Oriented Architecture (SOA), and 
@@ -296,7 +294,8 @@ Therefore, multi-agent systems, unlike what vendors tell you, are not a silver b
      - The unit test for a service would be all component unit tests passing. The unit test for an agent might be a less trivial heuristic on how all component unit tests behaved (in principle agents should be able to recover from some of the failing components; for example it can choose a document search action instead if google search action is failing).
 
 
-
+<a name="19"></a>
+### Part 4: **<a href="https://aisc.substack.com/p/llm-agents-part-4-workflow-to-multi">Workflow to Multi-agent Architecture Design</a>**
 
 Skills I need to develop/already have before the bootcamp:
 - Programming
