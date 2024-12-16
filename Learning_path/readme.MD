@@ -16,9 +16,8 @@ This repository documents my understanding of Multi-agentic LLM systems, mostly 
          1. [Properties of RL agents](#14)
       2. [Agents in Natural Language Processing](#15)
       3. [ Agents and Autonomy](#16)
-      4. [Agents and Control Flow](317)
-
-   3. [Part 3: Design Patterns](#4) 
+      4. [Agents and Control Flow](#17)
+   3. [Part 3: Design Patterns](#18) 
 
 
 
