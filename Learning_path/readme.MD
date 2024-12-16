@@ -165,7 +165,33 @@ One of the important characteristics of agents is their **level of autonomy char
 <a name="17"></a>
 ### Agents and Control Flow
 
-here
+In the near term, overcoming these challenges hinges (depends) on robust control flow mechanisms. **Control flow dictates how the LLM agent navigates interactions, makes decisions, and ultimately achieves its goals.** Without it, LLM agents risk producing **nonsensical outputs, deviating from intended tasks, or simply becoming unstable.**
+
+Imagine an LLM agent designed to write customer service emails.  Control flow ensures it understands the situation (e.g., complaint, inquiry), retrieves relevant information (e.g., customer details, order history), and crafts a professional and appropriate response.  This might involve routing the user's request to the appropriate department or dynamically generating different email templates based on the issue.  Control flow keeps the agent on track, preventing irrelevant tangents or factual errors.
+
+Effective control flow also addresses the challenges of measuring progress and integrating with existing systems. By establishing clear decision points and expected behaviors, developers can create metrics to track the LLM agent's performance and identify areas for improvement.  Furthermore, control flow allows for the integration of human oversight and intervention.  Developers can design control mechanisms that allow humans to guide the LLM towards desired outcomes or step in when the agent encounters unexpected situations. In essence, control flow acts as the bridge between the raw power of LLMs and the need for stability, reliability, and human oversight in real-world applications. See also:
+
+How to do retrieval augmented generation (RAG) right!
+How to do retrieval augmented generation (RAG) right!
+Amir Feizpour (ai.science)
+·
+May 22
+Read full story
+You can think of control flows as generalized policies that come from a deep understanding of the workflow the agent is trying to automate. They could include things like:
+
+Guardrails: Type of control flow specifically designed to restrict the LLM's behavior in certain ways. They act like safety rails, preventing the LLM from venturing into undesirable areas or generating harmful outputs. For instance: preventing offensive language, staying on topic, and fact-checking.
+
+Routing: LLMs can be used to make decisions about how to respond to a user's query. This can involve classifying the query type (e.g., question, request, instruction) and then directing the response accordingly. For instance, an LLM might predict the best response to a question is a factual summary, while a request might require completing an action (like booking a flight).
+
+Error Handling and Recovery:  When an agentic system encounters an issue, control flow mechanisms allow it to diagnose the problem and take corrective actions. This might involve prompting the user for clarification, reformulating a request, or attempting alternative strategies to complete the task.
+
+Prioritization and Decision Making:  Agentic systems often juggle multiple tasks or goals. Control flow structures help them prioritize based on urgency, importance, or available resources.  For instance, a virtual assistant might prioritize responding to an urgent message over completing a less time-sensitive task.
+
+State Management:  Many agentic systems track their internal state (e.g., conversation history, user preferences) to provide a more consistent and personalized experience. Control flow dictates how the system updates its state based on new information and uses it to inform future actions. Imagine a chatbot remembering your previous order preferences while recommending a new product.
+
+Learning and Adaptation:  Advanced agentic systems can learn and adapt their behavior over time. Control flow allows them to integrate newly acquired knowledge into their decision-making process. For instance, a recommendation system might adjust its suggestions  based on your past interactions and positive feedback.
+
+Most common implementations involve training small, specialized models (not necessarily language models) that carry out tasks and provide information or constraints to the overall system including crafting prompts that maximize the likelihood of the desired LLM response. 
 
 
 
