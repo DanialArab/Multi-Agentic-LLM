@@ -1,4 +1,4 @@
-Resources:
+Resources: 
 
 https://maven.com/p/bafd83/llm-agents-learning-path
 
